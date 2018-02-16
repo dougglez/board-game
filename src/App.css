@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.board-container {
+  margin: 35px auto;
+  height: 600px;
+  width: 600px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.big-middle-square {
+  grid-column: 2/6;
+  grid-row: 2/6;
+  border: 1px solid black;
+  background: #17BEBB;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.square {
+  height: 100%;
+  width: 100%;
+  border: 1px solid white;
+  background: #2E282A;
+  color: #FFC914 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rackets {
+  height: 32px;
+}
+
+.button {
+  margin-top: 35px;
+  height: 45px;
+  width: 200px;
+  background: #E4572E;
+  border: none;
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 4px;
+  box-shadow: #2E282A 2px 3px 5px;
+}
+
+.btn-rolldice {
+
+}
+
+.dice_roll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deck {
+  height: 75px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.deck1 {
+  background: #E4572E;
+  transform: rotate(315deg);
+  margin: 50px 0 0 50px;
+}
+
+.deck2 {
+  background: #E4572E;
+  transform: rotate(135deg);
+  margin: 50px 0 0 50px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.square7 {
+  grid-column: 6;
+  grid-row: 2;
+}
+
+.square8 {
+  grid-column: 6;
+  grid-row: 3;
+}
+
+.square9 {
+  grid-column: 6;
+  grid-row: 4;
+}
+
+.square10 {
+  grid-column: 6;
+  grid-row: 5;
+}
+
+.square11 {
+  grid-column: 6;
+  grid-row: 6;
+}
+
+.square12 {
+  grid-column: 5;
+  grid-row: 6;
+}
+
+.square13 {
+  grid-column: 4;
+  grid-row: 6;
+}
+
+.square14 {
+  grid-column: 3;
+  grid-row: 6;
+}
+
+.square15 {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+.square16 {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+.square17 {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.square18 {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.square19 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.square20 {
+  grid-column: 1;
+  grid-row: 2;
+}
